@@ -49,7 +49,7 @@ def relu_derivative(arrayOfInputs):
 
     return 1 * (arrayOfInputs >0)
 
-def zerify(y2):
+def zeros(y2):
     y = np.zeros((y2.shape[0],10))
     for i in range(np.shape(y2)[0]):
         y[i][y2[i]] = 1
